@@ -1,0 +1,115 @@
+body {
+  background-color: #f6f6fa;
+  padding: 3%;
+  font-family: Montserrat;
+  line-height: 24px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 23px 0px 23px 0px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 20px;
+}
+
+li::before {
+    content: "\2022";
+    color: #6d9bf5;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -20px;
+}
+
+li ::marker {
+  margin-right: 20px;
+}
+
+.project-item {
+  padding-left: 8px;
+}
+
+.project-item::marker {
+  font-weight: 700;
+}
+
+a {
+  color: #6d9bf5;
+  font-weight: 400;
+}
+
+.colored {
+  color: #6d9bf5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin: 0 auto;
+}
+
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+
+  padding: 104px 212px 104px 88px;
+}
+
+.company {
+  margin-top: 16px;
+}
+
+.time-place {
+  font-size: 12px;
+  color: #a8a8a8;
+
+  margin-bottom: 8px;
+}
+
+/* sidebar */
+aside {
+  background-color: #e0ebfe;
+  width: 375px;
+  padding-top: 40px;
+}
+img {
+  width: 375px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin: 48px 0px 48px 40px;
+}
+
+.contacts-item {
+  font-weight: 700;
+}
